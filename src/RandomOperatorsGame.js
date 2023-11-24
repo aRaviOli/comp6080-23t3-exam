@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './RandomOperatorsGame.css'; // CSS file for styling
+import './RandomOperatorsGame.css';
 
 function RandomOperatorsGame() {
     const [firstNumber, setFirstNumber] = useState(generateRandomNumber());
