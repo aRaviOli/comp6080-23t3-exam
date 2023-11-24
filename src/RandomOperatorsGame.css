@@ -1,0 +1,26 @@
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    /* Adjust as needed */
+}
+
+.number-box,
+.operator-box,
+.equals-box,
+.input-box {
+    width: 20%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #abcabc, #cbacbd);
+    color: #333;
+    font-size: 20px;
+}
+
+input {
+    height: 50px;
+    text-align: center;
+}

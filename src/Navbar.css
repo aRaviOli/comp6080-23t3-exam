@@ -1,0 +1,102 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-item {
+    text-align: center;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.navbar-item.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-item.logo-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar-item a {
+    color: #FFD700;
+    /* Example: gold color */
+    text-decoration: none;
+    /* Optional: removes underline */
+}
+
+.navbar-item a,
+.navbar-item a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* Hover state */
+.navbar-item a:hover {
+    color: #FFA500;
+    /* Example: orange color on hover */
+}
+
+/* Active state (when the link is clicked) */
+.navbar-item a:active {
+    color: #FF4500;
+    /* Example: red color on active */
+}
+
+@media (max-width: 1400px) {
+    .navbar {
+        height: 80px;
+    }
+
+@media (max-width: 800px) {
+    .navbar {
+        height: 60px;
+    }
+}}
+
+
+@media (min-width: 1200px) {
+    .navbar {
+        /* Adjusted styles for tablet */
+        padding: 15px;
+        font-size: 14px;
+        /* slightly larger font for tablet */
+    }
+
+    .navbar-item {
+        /* Adjust navbar items if needed */
+        padding: 10px;
+        margin: 0 20px;
+    }
+
+    /* Other tablet-specific styles */
+}
+
+/* Desktop styles */
+@media (min-width: 1800px) {
+    .navbar {
+        /* Adjusted styles for desktop */
+        padding: 20px;
+        font-size: 16px;
+        /* larger font for desktop */
+    }
+
+    .navbar-item {
+        /* Adjust navbar items for desktop */
+        padding: 15px;
+        margin: 0 30px;
+    }
+
+    /* Other desktop-specific styles */
+}
